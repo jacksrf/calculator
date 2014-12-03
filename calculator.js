@@ -2,8 +2,8 @@
 
 
 //grab values from browser
-var num1 = document.querySelector("div#num1");
-var num2 = document.querySelector("div#num2");
+var num1 = document.querySelector("input#num1");
+var num2 = document.querySelector("input#num2");
 
 
 // var x = parseInt(num1.value);
@@ -16,10 +16,11 @@ var num2 = document.querySelector("div#num2");
 
 
 //addition
-var add = document.querySelector("#add");
+var add = document.querySelector("button#add");
 var clicked = "click";
 
-var addNum = function(x,y) {
+var addNum = function() {
+  debugger;
   var x = parseInt(num1.value);
   var y = parseInt(num2.value);
   ans = x + y;
@@ -31,10 +32,10 @@ var addNum = function(x,y) {
 add.addEventListener(clicked, addNum);
 
 //subtraction
-var sub = document.querySelector("#subtract");
+var sub = document.querySelector("button#subtract");
 var clicked = "click";
 
-var subNum = function(x,y) {
+var subNum = function() {
     var x = parseInt(num1.value);
     var y = parseInt(num2.value);
   ans = x - y;
@@ -47,9 +48,9 @@ var subNum = function(x,y) {
 sub.addEventListener(clicked, subNum);
 
 //division
-var div = document.querySelector("#divide");
+var div = document.querySelector("button#divide");
 var clicked = "click";
-var divNum = function(x,y) {
+var divNum = function() {
     var x = parseInt(num1.value);
     var y = parseInt(num2.value);
   ans = x / y;
@@ -60,9 +61,9 @@ var divNum = function(x,y) {
 div.addEventListener(clicked, divNum);
 
 //multiplication
-var mul = document.querySelector("#multiply");
+var mul = document.querySelector("button#multiply");
 var clicked = "click";
-var mulNum = function(x,y) {
+var mulNum = function() {
     var x = parseInt(num1.value);
     var y = parseInt(num2.value);
   ans = x * y;

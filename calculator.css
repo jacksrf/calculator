@@ -1,4 +1,10 @@
+@font-face {
+    font-family: calculatorFont;
+    src: url(digital-7.ttf);
+}
+
 body {
+  height: 1000px;
   background-color: #f1c40f;
   border-color: #e74c3c;
   border-width: 20px;
@@ -51,12 +57,12 @@ p {
     position: relative;
 }
 
-.inputs {
+input {
   float: left;
   margin-top:50px;
  width: 200px;
  height: 100px;
- line-height: 100px;
+ line-height: 25px;
  background-color: white;
  border-radius: 25px;
  text-align: center;
@@ -66,6 +72,8 @@ p {
  border-right-width: 0px;
  border-color: #bdc3c7;
  border-style: solid;
+ font-size: 75px;
+ font-family: calculatorFont;
 }
 
  #num1 {
@@ -90,9 +98,9 @@ position: relative;
 button {
   float: left;
   width: 250px;
-  height: 125px;
+  height: 100px;
   /*margin-left: 25px;*/
-  line-height: 43.75px;
+  line-height: 30px;
   background-color: white;
   border-radius: 25px;
   text-align: center;
@@ -112,7 +120,7 @@ button {
 }
 
 img {
-  margin-top: 26.5px;
+  margin-top: 15.5px;
 }
 
 #divide {
@@ -136,13 +144,13 @@ img {
 
 #row3 {
   width: 600px;
-  heigth: 143.75px;
-  margin-top:10%;
+  heigth: 50px;
+  margin-top:0%;
 	position: relative;
 }
 
 #answer {
-  width: 175px;
+  width: 500px;
   height: 87.5px;
   line-height: 43.75px;
   background-color: white;
@@ -154,10 +162,35 @@ img {
   border-right-width: 0px;
   border-color: #bdc3c7;
   border-style: solid;
-  margin-left: 35%;
-  margin-right: 33%;
+  margin-left: 8%;
+  /*margin-right:33%;*/
+  font-size: 75px;
+  font-family: calculatorFont;
+
 }
 
-.inputs, #answer, button {
+input, #answer, button {
   outline: 0;
+}
+
+footer {
+    width:600px;
+    height:100px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #34495e;
+    border-radius: 25px;
+    border-bottom-width: 15px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #2c3e50;
+    border-style: solid;
+    margin-top: 2%;
+}
+
+#info {
+ text-align: center;
+ line-height: 100px;
+ color: #bdc3c7;
 }
