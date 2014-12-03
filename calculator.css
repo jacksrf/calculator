@@ -2,6 +2,7 @@ body {
   background-color: #f1c40f;
   border-color: #e74c3c;
   border-width: 20px;
+  font-family: 'Exo', sans-serif;
 }
 
 header {
@@ -22,7 +23,8 @@ header {
 p {
   text-align: center;
   line-height: 100px;
-  font-color: #bdc3c7;
+  color: #bdc3c7;
+  font-size: 75px;
 }
 
 #container {
@@ -156,6 +158,6 @@ img {
   margin-right: 33%;
 }
 
-.inputs, #answer {
+.inputs, #answer, button {
   outline: 0;
 }
