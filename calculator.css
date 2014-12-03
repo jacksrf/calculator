@@ -1,3 +1,30 @@
+body {
+  background-color: #f1c40f;
+  border-color: #e74c3c;
+  border-width: 20px;
+}
+
+header {
+  width:600px;
+  height:100px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: #34495e;
+  border-radius: 25px;
+  border-bottom-width: 15px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #2c3e50;
+  border-style: solid;
+}
+
+p {
+  text-align: center;
+  line-height: 100px;
+  font-color: #bdc3c7;
+}
+
 #container {
   width:600px;
   height:600px;
@@ -15,7 +42,7 @@
 
 #row1 {
     width:600px;
-    height:200px;
+    height:175px;
     /*margin-right:55px;
     margin-left: 55px;*/
     padding: 10px;
@@ -24,11 +51,10 @@
 
 .inputs {
   float: left;
-  /*margin-left: 25px;
- margin-right: 50px;*/
+  margin-top:50px;
  width: 200px;
  height: 100px;
- line-height: 43.75px;
+ line-height: 100px;
  background-color: white;
  border-radius: 25px;
  text-align: center;
@@ -50,6 +76,15 @@
   margin-left:12.5px;
 }
 
+#row2 {
+width:600px;
+height:200px;
+/*margin-right:55px;
+margin-left: 55px;*/
+padding: 10px;
+position: relative;
+}
+
 button {
   float: left;
   width: 250px;
@@ -69,45 +104,42 @@ button {
 }
 
 #add {
-  margin-left: 43.75px;
+  margin-left: 33.75px;
   margin-right: 6.25px;
-  margin-botom:
+
+}
+
+img {
+  margin-top: 26.5px;
 }
 
 #divide {
-  margin-left: 43.75px;
+  margin-left: 33.75px;
   margin-right: 6.25px;
+  margin-top: 6.25px;
 }
 
 #subtract {
   margin-right: 25px;
   margin-left:6.25px;
+
 }
 
 #multiply {
   margin-right: 25px;
   margin-left:6.25px;
+  margin-top: 6.25px;
 }
 
-/*#row2 {
-    width:600px;
-    height:200px;
-    margin-top: 33%;
-    margin-bottom: 33%;
-    margin-right:55px;
-    margin-left: 55px;
-    padding: 10px;
-    position: relative;
-  }
 
 #row3 {
   width: 600px;
-  heigth: 200px;
-  margin-top: 33%;
+  heigth: 143.75px;
+  margin-top:10%;
 	position: relative;
-}*/
+}
 
-/*#answer {
+#answer {
   width: 175px;
   height: 87.5px;
   line-height: 43.75px;
@@ -120,6 +152,10 @@ button {
   border-right-width: 0px;
   border-color: #bdc3c7;
   border-style: solid;
-  margin-left: 33%;
+  margin-left: 35%;
   margin-right: 33%;
-}*/
+}
+
+.inputs, #answer {
+  outline: 0;
+}
